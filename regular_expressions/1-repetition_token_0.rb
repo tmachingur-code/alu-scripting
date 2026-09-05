@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-# Repetition token
-# Matches strings with a 'b', followed by 2 to 5 't', followed by an 'n'
-regex = /bt{2,5}n/
+# Repetition Token #0
+# Matches strings with an 'h', 'b', followed by 2 to 5 't', followed by an 'n'
+regex = /hbt{2,5}n/
 
-p ARGV[0].scan(regex)
+puts ARGV[0][regex]
